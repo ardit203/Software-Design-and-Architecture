@@ -1,3 +1,7 @@
+// npx create-react-app my-app
+// npm install react-router-dom
+// npm install axios
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './screens/Home';

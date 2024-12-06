@@ -5,23 +5,19 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-FOLDER = 'D:/Faculty/5th Semester/PYTHON/Homework1/database'
+FOLDER = 'C:\Users\Ardit\Desktop\Software-Design-and-Architecture\Homework 1\database'
 
 @app.route('/api/issuers', methods=['GET'])
 def get_issuers():
-    # Load the Excel file and read the issuers from it
-    df = pd.read_excel(f"{FOLDER}/issuers.xlsx")
-    issuers = df['Code'].tolist()  # Assuming column is 'issuer_name'
-    print(issuers)
+    df = pd.read_csv(f"{FOLDER}/Issuers.csv")
+    issuers = df['Code'].tolist()
     return jsonify({'issuers': issuers})
 
 @app.route('/api/issuer-data', methods=['POST'])
 def get_issuer_data():
     issuer = request.json.get('issuer')
     if issuer:
-        # Load data for the selected issuer
-        df = pd.read_excel(f"{FOLDER}/{issuer}.xlsx")
-        df = df.iloc[:100]
+        df = pd.read_csv(f"{FOLDER}/{issuer}.csv")
         data = df.to_dict(orient='records')
 
         return jsonify(data)

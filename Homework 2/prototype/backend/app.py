@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-FOLDER = 'C:\Users\Ardit\Desktop\Software-Design-and-Architecture\Homework 1\database'
+FOLDER = 'C:/Users/Ardit/Desktop/Software-Design-and-Architecture/Homework 1/database'
 
 @app.route('/api/issuers', methods=['GET'])
 def get_issuers():

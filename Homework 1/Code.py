@@ -123,7 +123,7 @@ def fetch_range(companies, code, start_date, end_date):
 def fetch_data(companies, issuers):
     threads = []
     dataframes = dict()
-    today = (datetime.today() - timedelta(days=26)).strftime('%m/%d/%Y')
+    today = datetime.today().strftime('%m/%d/%Y')
 
     for code in issuers:
 
@@ -160,6 +160,8 @@ def fetch_data(companies, issuers):
 
 
 if __name__ == '__main__':
+    start = time.time()
     issuers = fetch_issuers()
     companies = dict()
     fetch_data(companies, issuers)
+    print(time.time()-start)

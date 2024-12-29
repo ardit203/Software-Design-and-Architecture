@@ -33,36 +33,6 @@ def parse_pdf(file_path: str) -> str:
 
 
 
-# def sentiment_analysis(text_list, pdf_text_list):
-#     """Compute average sentiment given text from HTML and PDF files."""
-#     # Combine all texts
-#     text_list.extend(pdf_text_list)
-#     # data = text_list + pdf_text_list
-#     # If there's no text, return a default
-#     if not text_list:
-#         return [{'label': 'NEUTRAL-NO-NEWS', 'score': 0.5}]
-#
-#     scores = []
-#     for txt in text_list:
-#         chunk = txt[:512].lower()  # or do your own chunking
-#         try:
-#             result = SENTIMENT_PIPELINE(chunk)
-#             scores.append(result[0]['score'])
-#         except Exception as e:
-#             logging.error(f"Error running sentiment pipeline: {e}")
-#
-#     if not scores:
-#         return [{'label': 'NEUTRAL-NO-NEWS', 'score': 0.5}]
-#
-#     avg_score = sum(scores) / len(scores)
-#
-#     sentiment = 'NEUTRAL'
-#     if avg_score > 0.6:
-#         sentiment = 'POSITIVE'
-#     elif avg_score < 0.4:
-#         sentiment = 'NEGATIVE'
-#     return [{'label': sentiment, 'score': avg_score}]
-
 def sentiment_analysis(SENTIMENT_PIPELINE, text_list, pdf_text_list):
     data = text_list + pdf_text_list
     if not data:
@@ -208,70 +178,6 @@ def scrape_link(driver, link, download_dir):
     return [additional_text, has_pdf]
 
 
-# def scrape_link(driver, link, download_dir):
-#     """
-#     Scrape a single link, returning [text, boolean_pdf].
-#     """
-#     additional_text = ''
-#     has_pdf = False
-#
-#     try:
-#         driver.get(link)
-#         wait = WebDriverWait(driver, 10)
-#
-#         text_section = wait.until(EC.presence_of_element_located(
-#             (By.CSS_SELECTOR, ".text-left.ml-auto.mr-auto.col-md-11"))
-#         )
-#         content_div = text_section.find_element(By.XPATH, ".//div/div")
-#         raw_text = content_div.text.strip()
-#         print(raw_text)
-#         # Check if automatically generated
-#         if raw_text.startswith('This is automaticaly generated document'):
-#             logging.info("Automatic document detected.")
-#             return [raw_text, False]
-#
-#         # Gather paragraphs
-#         paragraphs = content_div.find_elements(By.TAG_NAME, "p")
-#         additional_text = "\n".join(p.text.strip() for p in paragraphs)
-#
-#         # Check language
-#         if not check_language(additional_text):
-#             logging.info("Text is not in English.")
-#             logging.info(additional_text)
-#             return [additional_text, False]
-#
-#         # Attempt file download
-#         dwd_button = wait.until(EC.presence_of_element_located(
-#             (By.CSS_SELECTOR, "[title^='Превземи датотека']"))
-#         )
-#         file_name = dwd_button.text.strip()
-#         if not file_name.lower().endswith('.pdf'):
-#             logging.info("Skipping non-PDF file.")
-#             return [additional_text, False]
-#
-#         ActionChains(driver).move_to_element(dwd_button).click().perform()
-#         logging.info("Download initiated.")
-#         # time.sleep(3)
-#         file_path = os.path.join(download_dir, file_name)
-#         start_time = time.time()
-#         while not os.path.exists(file_path):
-#
-#             if time.time() - start_time > 5:  # wait up to 30s
-#                 logging.info("File download timed out.")
-#                 break
-#
-#         if os.path.exists(file_path):
-#             logging.info(f"Download complete: {file_name}")
-#             has_pdf = True
-#
-#     except Exception as exc:
-#         logging.error(f"Error during scraping {link}: {exc}", exc_info=True)
-#         return [additional_text, has_pdf]
-#
-#     return [additional_text, has_pdf]
-
-
-
 
 def ready_for_scrape(issuer, valid_links):
     """
@@ -308,7 +214,7 @@ def ready_for_scrape(issuer, valid_links):
     return results
 
 
-def fundamental_main(issuer, from_date=0, to_date=0):
+def fundamental_main(issuer):
     """Main method to get RSS, scrape pages, and compute sentiment."""
     rss_url = scrape_rss_link(issuer)
     if not rss_url:

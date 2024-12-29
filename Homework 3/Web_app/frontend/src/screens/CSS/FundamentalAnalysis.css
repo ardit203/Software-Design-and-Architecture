@@ -1,0 +1,107 @@
+
+
+.ardit{
+    
+    margin-left: 200px;
+}
+
+.fundamental-header{
+    font-size: 28px;
+    color: #2F3B52;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+.fundamental-container{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+
+.fundamental-info{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    border: 1px solid #ddd;
+
+    display: flex;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+
+.search-3, .from-date-3, .to-date-3, .find-3{
+    margin: 10px 40px;
+    /* background-color: red; */
+    
+}
+
+.find-3 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: end; /* Center vertically */
+}
+
+.input-3, .btn-3{
+    
+    /* padding: 5px; Add some padding */
+    border: 2px solid #2F3B52; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-top: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.btn-3{
+    background-color: #2F3B52;
+    color: white;
+    font-weight: bold;
+}
+
+.input-3, label{
+  font-family: 'Exo 2', sans-serif;
+    color: #2F3B52;
+    font-weight: bold;
+}
+
+.message{
+    font-size: 22px;
+    text-align: center;
+}
+
+.test{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    /* display: flex; */
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 100px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+}
+
+.left{
+    text-align: left;
+    color: #2F3B52;
+    font-weight: normal;
+}

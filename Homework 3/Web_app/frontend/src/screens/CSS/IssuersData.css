@@ -1,0 +1,247 @@
+/* Important colors
+
+#2F3B52 - Dark blue
+
+#4A90E2 - Blue
+
+#A1A1A1
+*/
+
+
+.header-2{
+    font-size: 28px;
+    color: #2F3B52;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.header-2-2{
+  font-size: 28px;
+  color: #2F3B52;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+.issuers-data-2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+
+.table-info-2{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    border: 1px solid #ddd;
+
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+
+.search-2, .from-date-2, .to-date-2, .find-2{
+    margin: 10px 40px;
+    /* background-color: red; */
+    
+}
+
+.find-2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: end; /* Center vertically */
+}
+
+.input-2, .btn-2{
+    
+    /* padding: 5px; Add some padding */
+    border: 2px solid #2F3B52; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-top: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.btn-2{
+    background-color: #2F3B52;
+    color: white;
+    font-weight: bold;
+}
+
+.input-2, label{
+  font-family: 'Exo 2', sans-serif;
+    color: #2F3B52;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.table-container-2 {
+    max-width: 100%;
+    overflow-x: auto; 
+
+    /* background-color: #f0f0f0; */
+    border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    border: 1px solid #ddd;
+  }
+  
+  .table-2 {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-color: black;
+  }
+  
+  .table-2 thead {
+    background-color: #2F3B52;
+    
+  }
+  
+  .table-2 th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+  }
+  
+  .table-2 tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+
+  .table-2 td {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  .table-2 tbody tr:hover {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+
+
+.table-2 tr td:first-child, 
+.table-2 tr th:first-child {
+  text-align: left;
+}
+
+/* Align all other columns to the right */
+.table-2 tr td:not(:first-child), 
+.table-2 tr th:not(:first-child) {
+  text-align: right;
+}
+
+
+  
+  .no-data-2{
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    /* background-color: #f0f0f0; */
+
+  }
+
+
+  
+
+ 
+
+  .issuers-vis-2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+
+
+    
+}
+
+
+
+.table-info-vis-2{
+  /* background-color: #f0f0f0;
+  border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 10px;
+    justify-content: center; */
+
+    border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    border: 1px solid #ddd;
+
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.search-vis-2, .find-vis-2{
+  margin: 10px 40px;
+  /* background-color: red; */
+  
+}
+
+.find-vis-2 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: end; /* Center vertically */
+}
+
+.chart-container-2 {
+  /* background-color: #f0f0f0; */
+
+  max-width: 100%;
+    overflow-x: auto; 
+    border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    border: 1px solid #ddd;
+
+
+
+
+
+  margin-top: 20px;
+  /* background-color: white;  */
+  /* border: 1px solid #ddd;  */
+  border-radius: 8px; 
+  /* padding: 16px; */
+  max-height: 600px;
+}
+
+.reset-2{
+  margin-top: 20px;
+}

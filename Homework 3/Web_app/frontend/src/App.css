@@ -1,0 +1,233 @@
+/* App.css */
+
+/* Important colors
+
+#2F3B52 - Dark blue
+
+#4A90E2 - Blue
+
+
+app-container
+nav_container
+nav_table
+nav_links
+
+
+content
+
+Footer
+
+
+
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+/* ///////////    app-container ////////////////////////////////////////////////// */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ///////////    app-container ////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////    nav-container ////////////////////////////////////////////////// */
+
+.nav-container{
+  /* margin border padding */
+  background-color:#2F3B52;
+  padding: 20px;
+}
+
+/* nav-table */
+.nav-table{
+  width: 100%
+}
+
+/* nav-link */
+.nav-link{
+  margin: 0 15px;
+   /* Customize link color */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s ease, transform 0.2s ease; /* Adds smooth effects */
+}
+
+.nav-link:hover {
+  color: #4A90E2; /* Change color on hover */
+  text-decoration:wavy;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+
+
+
+/* ///////////    nav-container ////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////    content-container ////////////////////////////////////////////////// */
+
+.content-container {
+  flex: 1; /* This makes the content area grow and fill available space */
+  /* background: black; */
+}
+
+/* ///////////    content-container ////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////    footer-container ////////////////////////////////////////////////// */
+
+/* The footer-container */
+.footer-container{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #2F3B52;
+}
+
+
+/* containers inside the footer container */
+.footer-email-container, .footer-github-container, .footer-links-container{
+  /* background-color: #0056B3; */
+  margin: 10px 0px;
+}
+
+/* container where the github link and image is */
+.footer-github-container{
+  margin-right: 300px;
+  margin-left: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* the githublogo */
+.footer-github-container img {
+  /* display: block; */
+  margin:  0px 50px;
+}
+/*  */
+
+
+/* the links inside all the containers */
+.footer-email-container a, .footer-github-container a, .footer-links-container a{
+   /* Customize link color */
+  text-decoration: none; /* Removes the underline */
+  transition: color 0.3s ease, transform 0.2s ease; /* Adds smooth effects */
+}
+
+.footer-email-container a:hover, .footer-github-container a:hover, .footer-links-container a:hover{
+  color: #4A90E2; /* Change color on hover */
+  text-decoration:wavy;
+  transform: scale(1.1);
+}
+
+/* ///////////    footer-container ////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Text to handle
+MSE-Analyzer
+nav-link
+text
+*/
+
+
+.MSE-Analyzer{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Exo 2', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.nav-link{
+  font-size: 18px;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.footer-text-spc{
+  font-size: 16px;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.footer-text{
+  font-size: 14px;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+

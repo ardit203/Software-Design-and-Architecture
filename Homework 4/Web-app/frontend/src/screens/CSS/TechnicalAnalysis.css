@@ -1,0 +1,166 @@
+/* Text Styles */
+.h-text, .f-text {
+    font-size: 1.75rem; /* Replaced px with rem */
+    color: #2F3B52;
+    margin-left: 15%; /* Replaced px with % */
+    margin-top: 5%; /* Replaced px with % */
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Main Container */
+.main-container {
+    background-color: white;
+    border-radius: 0.625em; /* Replaced px with em */
+    margin-left: 15%; /* Replaced px with % */
+    margin-right: 15%; /* Replaced px with % */
+    margin-top: 2%; /* Replaced px with % */
+    margin-bottom: 3%; /* Replaced px with % */
+    padding: 1.25em; /* Replaced px with em */
+}
+
+/* Indicator Info */
+.indicator-info {
+    background-color: white;
+    border-radius: 0.625em; /* Replaced px with em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+    border: 0.0625em solid #ddd; /* Replaced px with em */
+    display: flex;
+    margin-bottom: 1.875em; /* Replaced px with em */
+    padding: 0.625em; /* Replaced px with em */
+    justify-content: center;
+}
+
+/* Search and Buttons */
+.issuers-search, .indicator-search, .time-frames, .analyze-btn, .from-date {
+    margin: 0.625em 2.5%; /* Replaced px with em/% */
+}
+
+.analyze-btn {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.input, .btn {
+    border: 0.125em solid #2F3B52; /* Replaced px with em */
+    border-radius: 0.3125em; /* Replaced px with em */
+    font-size: 0.95rem; /* Replaced px with rem */
+    margin-top: 0.625em; /* Replaced px with em */
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn {
+    background-color: #2F3B52;
+    color: white;
+    font-weight: bold;
+}
+
+.input, label {
+    font-family: 'Exo 2', sans-serif;
+    color: #2F3B52;
+    font-weight: bold;
+}
+
+/* Additional Spacing */
+.tfl {
+    margin-right: 1.25em; /* Replaced px with em */
+}
+
+/* Chart Container */
+.chart-container {
+    padding: 0.625em; /* Replaced px with em */
+    margin-right: 15%; /* Replaced px with % */
+    margin-left: 15%; /* Replaced px with % */
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 0.625em; /* Replaced px with em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+    border: 0.0625em solid #ddd; /* Replaced px with em */
+    margin-top: 2%; /* Replaced px with % */
+    background-color: white;
+    max-height: 37.5em; /* Replaced px with em */
+}
+
+/* Reset Button */
+.reset {
+    margin-top: 1.25em; /* Replaced px with em */
+    margin-left: 15%; /* Replaced px with % */
+    margin-bottom: 3%; /* Replaced px with % */
+}
+
+/* Table Styles */
+.table-div {
+    background-color: lightgray;
+    border-radius: 0.625em; /* Replaced px with em */
+    margin-left: 2.5%; /* Replaced px with % */
+    margin-right: 2.5%; /* Replaced px with % */
+    margin-top: 1.25em; /* Replaced px with em */
+    margin-bottom: 2.5em; /* Replaced px with em */
+    padding: 2.5em; /* Replaced px with em */
+}
+
+.table-tech {
+    border-radius: 0.625em; /* Replaced px with em */
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-color: 0.125em solid black; /* Replaced px with em */
+}
+
+.table-tech thead {
+    border-radius: 0.625em; /* Replaced px with em */
+    background-color: #2F3B52;
+}
+
+.table-tech th {
+    padding: 0.625em; /* Replaced px with em */
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+
+.table-tech tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.table-tech td {
+    padding: 0.625em; /* Replaced px with em */
+    text-align: left;
+    font-family: 'Exo 2', sans-serif;
+    border-color: 0.125em solid black; /* Replaced px with em */
+}
+
+.table-tech tbody tr:hover {
+    background-color: #4A90E2;
+    color: white;
+}
+
+/* Footer Text */
+.f-text {
+    margin-bottom: 1.875em; /* Replaced px with em */
+}
+
+/* No Data Text */
+.no-data-text {
+    text-align: center;
+    color: #666;
+    font-size: 0.875rem; /* Replaced px with rem */
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Where Table Is */
+.where-table-is {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 0.625em; /* Replaced px with em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+    border: 0.0625em solid #ddd; /* Replaced px with em */
+}
+
+.table-tech tbody {
+    font-weight: bold;
+    color: #2F3B52;
+    font-family: 'Exo 2', sans-serif;
+}
+

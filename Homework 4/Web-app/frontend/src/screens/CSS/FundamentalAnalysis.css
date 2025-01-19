@@ -1,0 +1,88 @@
+.ardit {
+    margin-left: 12.5%; /* Replaced px with % */
+}
+
+.fundamental-header {
+    font-size: 1.75rem; /* Replaced px with rem */
+    color: #2F3B52;
+    margin-left: 15%; /* Replaced px with % */
+    margin-top: 5%; /* Replaced px with % */
+    font-family: 'Exo 2', sans-serif;
+}
+
+.fundamental-container {
+    background-color: white;
+    border-radius: 0.625em; /* Replaced px with em */
+    margin-left: 15%; /* Replaced px with % */
+    margin-right: 15%; /* Replaced px with % */
+    margin-top: 2%; /* Replaced px with % */
+    margin-bottom: 2%; /* Replaced px with % */
+    padding: 1.25em; /* Replaced px with em */
+}
+
+.fundamental-info {
+    background-color: white;
+    border-radius: 0.625em; /* Replaced px with em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+    border: 0.0625em solid #ddd; /* Replaced px with em */
+    display: flex;
+    padding: 0.625em; /* Replaced px with em */
+    justify-content: center;
+}
+
+.search-3, .from-date-3, .to-date-3, .find-3 {
+    margin: 0.625em 2.5%; /* Replaced px with em/% */
+}
+
+.find-3 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: end; /* Center vertically */
+}
+
+.input-3, .btn-3 {
+    border: 0.125em solid #2F3B52; /* Replaced px with em */
+    border-radius: 0.3125em; /* Replaced px with em */
+    font-size: 0.95rem; /* Replaced px with rem */
+    margin-top: 0.625em; /* Replaced px with em */
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn-3 {
+    background-color: #2F3B52;
+    color: white;
+    font-weight: bold;
+}
+
+.input-3, label {
+    font-family: 'Exo 2', sans-serif;
+    color: #2F3B52;
+    font-weight: bold;
+}
+
+
+.message {
+    font-size: 1.375rem; /* Replaced px with rem */
+    text-align: center;
+}
+
+.test {
+    background-color: white;
+    border-radius: 0.625em; /* Replaced px with em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+    border: 0.0625em solid #ddd; /* Replaced px with em */
+    padding: 0.625em; /* Replaced px with em */
+    justify-content: center;
+    text-align: center;
+    margin: 1.875em 6.25%; /* Replaced px with em/% */
+    font-weight: bold;
+    font-size: 0.95rem; /* Replaced px with rem */
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+}
+
+.left {
+    text-align: left;
+    color: #2F3B52;
+    font-weight: normal;
+}

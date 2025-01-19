@@ -1,0 +1,168 @@
+.prediction-header {
+  font-size: 1.75rem; /* Replaced px with rem */
+  color: #2F3B52;
+  margin-left: 15%; /* Replaced px with % */
+  margin-top: 5%; /* Replaced px with % */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.prediction-container, .metrics-container {
+  background-color: white;
+  border-radius: 0.625em; /* Replaced px with em */
+  margin-left: 15%; /* Replaced px with % */
+  margin-right: 15%; /* Replaced px with % */
+  margin-top: 2%; /* Replaced px with % */
+  margin-bottom: 2%; /* Replaced px with % */
+  padding: 1.25em; /* Replaced px with em */
+}
+
+.prediction-info {
+  background-color: white;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  display: flex;
+  padding: 0.625em; /* Replaced px with em */
+  justify-content: center;
+}
+
+.search-4, .find-4 {
+  margin: 0.625em 2.5%; /* Replaced px with em/% */
+}
+
+.find-4 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.input-4, .btn-4 {
+  border: 0.125em solid #2F3B52; /* Replaced px with em */
+  border-radius: 0.3125em; /* Replaced px with em */
+  font-size: 0.95rem; /* Replaced px with rem */
+  margin-top: 0.625em; /* Replaced px with em */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.btn-4 {
+  background-color: #2F3B52;
+  color: white;
+  font-weight: bold;
+}
+
+.input-4, label {
+  font-family: 'Exo 2', sans-serif;
+  color: #2F3B52;
+  font-weight: bold;
+}
+
+.metrics-table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+}
+
+.chart-container-prediction {
+  padding: 1.25em; /* Replaced px with em */
+  margin-right: 15%; /* Replaced px with % */
+  margin-left: 15%; /* Replaced px with % */
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  margin-top: 2%; /* Replaced px with % */
+  background-color: white;
+  max-height: 37.5em; /* Replaced px with em */
+}
+
+.reset-prediction {
+  margin-top: 1.25em; /* Replaced px with em */
+  margin-left: 15%; /* Replaced px with % */
+  margin-bottom: 3%; /* Replaced px with % */
+}
+
+.no-data-text-prediction {
+  text-align: center;
+  color: #666;
+  font-size: 0.875rem; /* Replaced px with rem */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.where-table-is-prediction {
+  margin: 1.875em 15%; /* Replaced px with em/% */
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between; /* Ensures even spacing between items */
+  gap: 1.25em;
+  background-color: white;
+  padding: 1.25em;
+  border-radius: 0.625em;
+  font-family: 'Exo 2', sans-serif;
+  width: 100%; /* Ensure it takes full container width */
+  box-sizing: border-box; /* Includes padding in width */
+}
+
+.table-section {
+  flex: 1; /* Allows both tables to share equal space */
+  max-width: calc(50% - 0.625em); /* Ensures both fit inside with the gap */
+  background-color: white;
+  border: 0.0625em solid #ccc;
+  border-radius: 0.625em;
+  min-height: 20.8125em;
+  max-height: 21.8em;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  text-align: center;
+}
+
+
+.section-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 0.625em; /* Replaced px with em */
+  font-weight: bold;
+  font-size: 1.1rem; /* Replaced px with rem */
+  color: white;
+  background-color: #2F3B52;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3125em 0; /* Replaced px with em */
+}
+
+.table-cell {
+  flex: 1;
+  text-align: center;
+  font-size: 0.975rem; /* Replaced px with rem */
+  font-weight: bold;
+  color: #2F3B52;
+  background-color: #f0f0f0;
+  border-radius: 0.625em; /* Replaced px with em */
+  margin: 0.3125em; /* Replaced px with em */
+  padding: 0.3125em; /* Replaced px with em */
+  align-content: center;
+}
+
+.table-cell:hover {
+  background-color: #4A90E2;
+  color: white;
+}
+
+#hd {
+  background-color: #2F3B52;
+  color: white;
+  font-size: 1.1rem;
+}
+
+#hd2 {
+  padding: 0;
+  display: flex;
+}

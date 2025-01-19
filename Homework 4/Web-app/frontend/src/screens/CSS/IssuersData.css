@@ -1,0 +1,175 @@
+/* Important colors
+#2F3B52 - Dark blue
+#4A90E2 - Blue
+#A1A1A1 - Light gray
+*/
+
+.header-2 {
+  font-size: 1.75rem; /* Replaced px with rem */
+  color: #2F3B52;
+  margin-left: 15%; /* Replaced px with % */
+  margin-top: 5%; /* Replaced px with % */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.header-2-2 {
+  font-size: 1.75rem; /* Replaced px with rem */
+  color: #2F3B52;
+  margin-left: 15%; /* Replaced px with % */
+  margin-top: 7%; /* Replaced px with % */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.issuers-data-2 {
+  background-color: white;
+  border-radius: 0.625em; /* Replaced px with em */
+  margin-left: 15%; /* Replaced px with % */
+  margin-right: 15%; /* Replaced px with % */
+  margin-top: 2%; /* Replaced px with % */
+  margin-bottom: 3%; /* Replaced px with % */
+  padding: 1.25em; /* Replaced px with em */
+}
+
+.table-info-2 {
+  background-color: white;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  display: flex;
+  margin-bottom: 1.25em; /* Replaced px with em */
+  padding: 0.625em; /* Replaced px with em */
+  justify-content: center;
+}
+
+.search-2, .from-date-2, .to-date-2, .find-2 {
+  margin: 0.625em 2.5%; /* Replaced px with em/% */
+}
+
+.find-2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.input-2, .btn-2 {
+  border: 0.125em solid #2F3B52; /* Replaced px with em */
+  border-radius: 0.3125em; /* Replaced px with em */
+  font-size: 0.95rem; /* Replaced px with rem */
+  margin-top: 0.625em; /* Replaced px with em */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.btn-2 {
+  background-color: #2F3B52;
+  color: white;
+  font-weight: bold;
+}
+
+.input-2, label {
+  font-family: 'Exo 2', sans-serif;
+  color: #2F3B52;
+  font-weight: bold;
+}
+
+.table-container-2 {
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+}
+
+.table-2 {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-color: black;
+}
+
+.table-2 thead {
+  background-color: #2F3B52;
+}
+
+.table-2 th {
+  padding: 0.625em; /* Replaced px with em */
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+}
+
+.table-2 tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.table-2 td {
+  padding: 0.625em; /* Replaced px with em */
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.table-2 tbody tr:hover {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.table-2 tr td:first-child, 
+.table-2 tr th:first-child {
+  text-align: left;
+}
+
+.table-2 tr td:not(:first-child), 
+.table-2 tr th:not(:first-child) {
+  text-align: right;
+}
+
+.no-data-2 {
+  text-align: center;
+  color: #666;
+  font-size: 0.875rem; /* Replaced px with rem */
+  font-family: 'Exo 2', sans-serif;
+}
+
+.issuers-vis-2 {
+  background-color: white;
+  border-radius: 0.625em; /* Replaced px with em */
+  margin-left: 15%; /* Replaced px with % */
+  margin-right: 15%; /* Replaced px with % */
+  margin-top: 2%; /* Replaced px with % */
+  margin-bottom: 3%; /* Replaced px with % */
+  padding: 1.25em; /* Replaced px with em */
+}
+
+.table-info-vis-2 {
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  display: flex;
+  margin-bottom: 1.25em; /* Replaced px with em */
+  padding: 0.625em; /* Replaced px with em */
+  justify-content: center;
+}
+
+.search-vis-2, .find-vis-2 {
+  margin: 0.625em 2.5%; /* Replaced px with em/% */
+}
+
+.find-vis-2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.chart-container-2 {
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  margin-top: 1.25em; /* Replaced px with em */
+  max-height: 37.5em; /* Replaced px with em */
+}
+
+.reset-2 {
+  margin-top: 1.25em; /* Replaced px with em */
+}

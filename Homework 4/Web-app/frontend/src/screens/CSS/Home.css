@@ -1,0 +1,147 @@
+/* General Body Styling */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Header Text */
+.header-text {
+  margin-top: 2.5%; /* Replaced px with % */
+  font-size: 1.75rem; /* Replaced px with rem */
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  color: #2F3B52;
+  text-align: center;
+}
+
+/* Main Container */
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+/* CP (Current Prices) Section */
+.cp {
+  background-color: gray;
+  min-width: 47%;
+  max-width: 47%;
+  font-size: 1.375rem; /* Replaced px with rem */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #2F3B52;
+  margin-right: 2%;
+}
+
+.cp-title {
+  text-align: center;
+}
+
+.cp-placeholder {
+  border-radius: 2%; /* No changes needed */
+  border-color: black;
+}
+
+/* Latest News Section */
+.latest-news {
+  background-color: #4A90E2;
+  min-width: 47%;
+  max-width: 47%;
+  font-size: 1.375rem; /* Replaced px with rem */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #2F3B52;
+  margin-left: 2%;
+}
+
+.latest-news-title {
+  text-align: center;
+}
+
+.latest-news-placeholder {
+  border-radius: 2%; /* No changes needed */
+  border-color: black;
+}
+
+/* Text Styles */
+.text {
+  font-size: 0.875rem; /* Replaced small with rem for consistency */
+  font-weight: normal;
+  color: white;
+}
+
+/* Intro Container */
+.intro-container {
+  background-color: #ffffff;
+  padding: 1.25em; /* Replaced px with em */
+  border-radius: 0.625em; /* Replaced px with em */
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  width: 80%;
+  margin-left: 15%; /* Replaced px with % */
+  margin-right: 15%; /* Replaced px with % */
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.25em; /* Replaced px with em */
+  margin-bottom: 2%; /* Replaced px with % */
+}
+
+/* Grid Item */
+.grid-item {
+  background-color: #ffffff;
+  padding: 1.875em; /* Replaced px with em */
+  border-radius: 0.5em; /* Replaced px with em */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Replaced px with em */
+  text-align: center;
+  border: 0.0625em solid #ddd; /* Replaced px with em */
+  align-content: center;
+  
+}
+
+.grid-item h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem; /* Replaced em with rem */
+  color: #2F3B52;
+  margin-bottom: 0.625em; /* Replaced px with em */
+}
+
+.grid-item p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.95rem; /* Replaced em with rem */
+  color: #666666;
+  margin-bottom: 1.25em; /* Replaced px with em */
+}
+
+.grid-item .btn {
+  background-color: #2F3B52;
+  color: #ffffff;
+  font-size: 1.2rem; /* No change needed */
+  padding: 0.625em 1.25em; /* Replaced px with em */
+  border: none;
+  border-radius: 0.3125em; /* Replaced px with em */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.grid-item .btn:hover {
+  background-color: #4A90E2;
+}
+
+/* Intro Footer */
+.intro-footer {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.9rem; /* Replaced em with rem */
+  color: #888888;
+}
+
+.intro-footer a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.intro-footer a:hover {
+  text-decoration: underline;
+}

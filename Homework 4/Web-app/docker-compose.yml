@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend_
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "5000:5000"  # Expose the backend on port 5000
+    volumes:
+      - ./backend_/Database/data:/app/backend_/Database/data
+    environment:
+      DATA_PATH: /app/backend_/Database/data
+  
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "3000:3000"  # Expose the frontend on port 3000
+    environment:
+      - "REACT_APP_BACKEND_HOST=http://localhost:5000"  # Backend service URL for inter-container communication
